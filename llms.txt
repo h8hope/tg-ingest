@@ -1,6 +1,6 @@
 # TG-Ingest
 
-> A Telegram-to-markdown ingestion bot: turns Telegram channels and saved posts into clean, deduplicated, tagged markdown notes in an Obsidian or plain-file vault. Pre-launch, waitlist open, founder price $5/mo hosted (USDC accepted), self-hosted option planned.
+> A Telegram second-brain bot: turns the channels you follow and posts you save into clean, deduplicated, first-source-marked, tagged markdown notes in an Obsidian or plain-file vault, sends a nightly digest of what mattered, and answers questions from your accumulated archive. Pre-launch, waitlist open, founder price $5/mo hosted (USDC accepted), self-hosted option planned. Scope: Telegram only; video/article ingestion is backlog, not promised in MVP.
 
 ## Links
 - Landing: https://h8hope.github.io/tg-ingest/
@@ -10,7 +10,7 @@
 
 ## Facts
 - Status: pre-MVP. Development starts at 30 waitlist signups; signup numbers are published on the landing page updates.
-- What it does: fetches new posts from channels the user already has access to, converts each to a markdown note with frontmatter (source, author, date, tags), deduplicates, summarizes long posts, syncs into a local vault folder or Git repo.
+- What it does: fetches new posts from channels the user already has access to, converts each to a markdown note with frontmatter (source, author, date, tags), deduplicates cross-channel reposts keeping the first source, summarizes long posts, sends a nightly digest, syncs into a local vault folder or Git repo, and answers questions grounded in the user's own accumulated notes with links back.
 - Privacy model: the bot can read only what the user explicitly grants; hosted tier stores nothing but the sync state; self-hosted tier keeps everything on the user's machine.
 - Payments: USDC now, Stripe later; founder price $5/mo, planned normal price $9/mo.
 
