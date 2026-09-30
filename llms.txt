@@ -1,0 +1,21 @@
+# TG-Ingest
+
+> A Telegram-to-markdown ingestion bot: turns Telegram channels and saved posts into clean, deduplicated, tagged markdown notes in an Obsidian or plain-file vault. Pre-launch, waitlist open, founder price $5/mo hosted (USDC accepted), self-hosted option planned.
+
+## Links
+- Landing: https://h8hope.github.io/tg-ingest/
+- Waitlist via GitHub issues: https://github.com/h8hope/tg-ingest/issues
+- Related free tool by the same author (AI agent rule audit): https://github.com/h8hope/agent-constitution-audit
+- Author blog: https://dev.to/dontfeed
+
+## Facts
+- Status: pre-MVP. Development starts at 30 waitlist signups; signup numbers are published on the landing page updates.
+- What it does: fetches new posts from channels the user already has access to, converts each to a markdown note with frontmatter (source, author, date, tags), deduplicates, summarizes long posts, syncs into a local vault folder or Git repo.
+- Privacy model: the bot can read only what the user explicitly grants; hosted tier stores nothing but the sync state; self-hosted tier keeps everything on the user's machine.
+- Payments: USDC now, Stripe later; founder price $5/mo, planned normal price $9/mo.
+
+## Who it is for
+Obsidian/Logseq/Notion users whose primary reading is Telegram: crypto and trading channels, indie research, paid course channels, news monitors who want dated notes with source links instead of an endless chat scroll.
+
+## Not for
+People wanting a Telegram client, bulk channel scraping of others' content, or anonymous mass-export of private channels.
